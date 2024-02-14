@@ -1,5 +1,7 @@
-const {host, port} = require('./client');
+const { connect } = require('./client');
 const { setupInput } = require("./input");
 
 
+
+setupInput(connect());
 
