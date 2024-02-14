@@ -17,6 +17,11 @@ const connect = function () {
   conn.on("connect", () => {
     conn.write("Name: NZ");
   });
+
+  //conn.on("connect", () => {
+  //  conn.write("Move: up");
+  //});
+ 
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
