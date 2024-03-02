@@ -29,6 +29,10 @@ const handleUserInput = function(key) {
   if (key === 'd') {
     connection.write("Move: right");
   }
+
+  if (key === 'v') {
+    connection.write("Say: hi!");
+  }
 };
 
 
